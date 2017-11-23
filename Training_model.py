@@ -65,9 +65,9 @@ model.add(Dropout(0.250))
 model.add(Dense(num_classes))
 model.add(Activation('softmax'))
 
-sgd = keras.optimizers.SGD(
-	lr=0.0005
-	)
+# sgd = keras.optimizers.SGD(
+# 	lr=0.0005
+# 	)
 
 model.compile(
 		loss='binary_crossentropy',
